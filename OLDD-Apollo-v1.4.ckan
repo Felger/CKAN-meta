@@ -1,0 +1,29 @@
+{
+	"spec_version": 1,
+	"identifier": "OLDD-Apollo",
+	"ksp_version_min": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/70557"
+	},
+	"name": "APOLLO (SATURN-V with F1 & J2, APOLLO CSM, LEM, LLRV)",
+	"license": "CC-BY-NC-SA-4.0",
+	"abstract": "APOLLO (SATURN-V with F1 & J2, APOLLO CSM, LEM, LLRV). by OLDD (v.1.4. 09.05.14)",
+	"author": "DennyTX",
+	"version": "1.4",
+	"download": "https://www.dropbox.com/s/85gipo5xt80piy7/SATURN-V-APOLLO%20%28v.1.4.%29.zip?dl=1",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"recommends": [{
+            "name"  : "KerbalJointReinforcement",
+            "name"  : "TACLS"
+			"name"  : "FShangarExtender"
+			"name"  : "RasterPropMonitor"
+			"name"  : "FASACore"
+        }
+	"install": [
+        {
+            "file"       : "GameData/OLDD",
+            "install_to" : "GameData"
+        }
+    ]
+}
